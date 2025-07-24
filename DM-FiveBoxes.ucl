@@ -1,0 +1,1 @@
+Map=(MapName="DM-FiveBoxes",Acronym=DM,PlayerCountMin=2,PlayerCountMax=5,FriendlyName=DM-FiveBoxes.LevelSummary.Title,TextName=DM-FiveBoxes,Author="ChaosTheory",ScreenShot=DM-FiveBoxes.Screenshot,Description=DM-FiveBoxes.LevelSummary.Description,FallbackDesc="Something... Simple.  The name says it all.",FallbackName="DM-FiveBoxes")

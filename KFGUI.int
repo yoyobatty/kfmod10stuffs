@@ -1,0 +1,122 @@
+[GUIBuyMenu]
+BoxForCategories.Hint="Chose among these categories of equipment."
+GamePageHeader.Caption="Buy Equipment"
+catbg.Caption="Categories"
+infbg.Caption="Info"
+itmbg.Caption="Items"
+itmbox.Hint="Equipment in this category"
+
+[GUIBuyMenuFooter]
+AutoAmmo.Caption="AutoAmmo"
+AutoAmmo.Hint="Fill ammo for all weapons."
+Cancel.Caption="Cancel"
+Cancel.Hint="Don't buy these weapons."
+Complete.Caption="Complete"
+Complete.Hint="Purchase weapons and save changes."
+Fill.Caption="Fill Up"
+Fill.Hint="Fill up on currently selected ammo."
+PlayerScore.Caption="Score: 0"
+Purchase.Caption="Buy"
+Purchase.Hint="Buy currently selected weapon"
+playerweight.Caption="Weight: 0.0"
+
+[GUIBuyWeaponInfoPanel]
+PowerCap.Caption="Power:"
+RangeCap.Caption="Range:"
+SpeedCap.Caption="Speed:"
+
+[KFGamePageSP]
+PageCaption="Killing Floor Single Player"
+SPFooter.PrimaryCaption="PLAY"
+SPFooter.PrimaryHint="Start A Match With These Settings"
+SPFooter.SecondaryCaption="SPECTATE"
+SPFooter.SecondaryHint="Spectate A Match With These Settings"
+
+[KFInstantActionPage]
+PageCaption="Single Player"
+
+[KFInvasionLoginMenu]
+Panels=((Caption="Game",Hint="Game Controls"),(Caption="Server Info",Hint="Current map rotation and game settings"),(Caption="Communication",Hint="Manage communication with other players"),(Caption="Help",Hint="How to survive in Killing Floor"),(Caption="Help",Hint="Helpful hints"))
+
+[KFMainMenu]
+HostButton.Caption=" "
+HostButton.Hint="Start a server and invite others to join your game"
+InstantActionButton.Caption=" "
+InstantActionButton.Hint="Play through the Single Player campaign..."
+MultiplayerButton.Caption=" "
+MultiplayerButton.Hint="All hell breaks loose..."
+QuitButton.Caption=" "
+QuitButton.Hint="Leave the game"
+SettingsButton.Caption=" "
+SettingsButton.Hint="Change your controls and settings"
+
+[KFQuitPage]
+NoButton.Caption="NO"
+QuitDesc.Caption="You can run. But they'll find you before dawn."
+YesButton.Caption="YES"
+
+[KFScoreBoard]
+FragLimit="KILL LIMIT:"
+
+[KFSettingsPage]
+PanelCaption=("Display","Audio","Player","Game","Input","HUD","HUD")
+PanelHint=("Select your resolution or change your display and detail settings...","Adjust your audio experience...","Configure your Killing Floor Avatar...","Configure game and network related settings...","Configure misc. input options...","Customize your HUD...","Customize your HUD...")
+SettingHeader.Caption="Settings"
+
+[KFTab_DetailSettings]
+BrightnessSlider.Caption="Brightness"
+BrightnessSlider.Hint="Use the slider to adjust the Brightness to suit your monitor."
+ContrastSlider.Caption="Contrast"
+ContrastSlider.Hint="Use the slider to adjust the Contrast to suit your monitor."
+DetailCharacterDetail.Caption="Character Detail"
+DetailCharacterDetail.Hint="Changes how much character detail will be rendered."
+DetailCharacterShadows.Caption="Character Shadows"
+DetailCharacterShadows.Hint="Adjust the detail of character shadows.  'Blob' or 'None' recommended for low-performance PC's"
+DetailCoronas.Caption="Coronas"
+DetailCoronas.Hint="Enables coronas."
+DetailDecalStay.Caption="Decal Stay"
+DetailDecalStay.Hint="Changes how long weapon scarring effects stay around."
+DetailDecals.Caption="Decals"
+DetailDecals.Hint="Enables weapon scarring effects."
+DetailDecoLayers.Caption="Foliage"
+DetailDecoLayers.Hint="Enables grass and other decorative foliage."
+DetailDetailTextures.Caption="Detail Textures"
+DetailDetailTextures.Hint="Enables detail textures."
+DetailDynamicLighting.Caption="Dynamic Lighting"
+DetailDynamicLighting.Hint="Enables dynamic lights."
+DetailPhysics.Caption="Physics Detail"
+DetailPhysics.Hint="Changes the physics simulation level of detail."
+DetailProjectors.Caption="Projectors"
+DetailProjectors.Hint="Enables projectors."
+DetailTextureDetail.Caption="Texture Detail"
+DetailTextureDetail.Hint="Changes how much world detail will be rendered."
+DetailTrilinear.Caption="Trilinear Filtering"
+DetailTrilinear.Hint="Enables trilinear filtering, recommended for high-performance PCs."
+DetailWorldDetail.Caption="World Detail"
+DetailWorldDetail.Hint="Changes the level of detail used for optional geometry and effects."
+DistanceLODSlider.Caption="Fog Distance"
+DistanceLODSlider.Hint="Reduce the fog distance to improve performance."
+GammaSlider.Caption="Gamma"
+GammaSlider.Hint="Use the slider to adjust the Gamma to suit your monitor."
+MeshLOD.Caption="Dynamic Mesh LOD"
+MeshLOD.Hint="Adjusts how aggressively character and vehicle details are reduced at a distance.  Higher settings increase the distance at which details are reduced, possibly improving visual detail at a cost in performance"
+RenderDeviceCombo.Caption="Render Device"
+RenderDeviceCombo.Hint="Alternate rendering devices may offer better performance on your machine."
+VideoColorDepth.Caption="Color Depth"
+VideoColorDepth.Hint="Select the maximum number of colors to display at one time."
+VideoFullScreen.Caption="Full Screen"
+VideoFullScreen.Hint="Check this box to run the game full screen."
+VideoResolution.Caption="Resolution"
+VideoResolution.Hint="Select the video resolution at which you wish to play."
+WeatherEffects.Caption="Weather Effects"
+WeatherEffects.Hint="Enable weather effects like rain-drops and lightning."
+sbSection1.Caption="Resolution"
+sbSection2.Caption="Options"
+sbSection3.Caption="Gamma Test"
+
+[KFTab_MidGameHelp]
+NextHint.Caption="Next Hint"
+PrevHint.Caption="Previous Hint"
+sbGameDesc.Caption="Game Description"
+sbHints.Caption="Helpful Hints"
+

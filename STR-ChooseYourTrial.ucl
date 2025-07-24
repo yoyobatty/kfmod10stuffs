@@ -1,0 +1,1 @@
+Map=(MapName="STR-ChooseYourTrial",Acronym=STR,PlayerCountMin=6,PlayerCountMax=10,FriendlyName=STR-ChooseYourTrial.LevelSummary.Title,Author="QuantumX",Description=STR-ChooseYourTrial.LevelSummary.Description,FallbackDesc="A themed trial map; you decide the order, but in the end, all trials must be completed ",FallbackName="ChooseYourTrials")
