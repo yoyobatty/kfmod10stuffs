@@ -1,0 +1,297 @@
+[Public]
+Object=(Class=class,MetaClass=Xinterface.GUIUserKeyBinding,Name=KFMod.KFKeyBindings)
+
+[Axe]
+Description="A common two-handed fireman's axe."
+ItemName="Axe"
+
+[AxePickup]
+PickupMessage="You got the Fire Axe."
+
+[Bat]
+Description="a hollow aluminum recreational bat. It's relatively light weight makes it an ideal piece of equipment. "
+ItemName="Bat"
+
+[BatPickup]
+PickupMessage="You got the Bat."
+
+[BoomStick]
+Description="A double barreled shotgun used by big game hunters. It fires two slugs simultaneously and can bring down even the largest targets, quickly."
+ItemName="Hunting Shotgun"
+
+[BoomStickPickup]
+PickupMessage="You got the Hunting Shotgun"
+
+[Bullpup]
+Description="A military grade automatic rifle. Can be fired in semi-auto or full auto firemodes and comes equipped with a scope for increased accuracy."
+ItemName="Bullpup"
+
+[BullpupAmmo]
+ItemName="Bullpup bullets"
+
+[BullpupAmmoDM]
+ItemName="Bullpup bullets"
+
+[BullpupAmmoPickup]
+PickupMessage="Found (2) Magazines (5.56 NATO)"
+
+[BullpupAmmoPickupSP]
+PickupMessage="Found some 5.56 NATO ammo"
+
+[BullpupPickup]
+PickupMessage="You got the Bullpup"
+
+[BullpupSwitchMessage]
+SwitchMessage[0]="Set to 3 round burst."
+SwitchMessage[1]="Set to automatic."
+
+[Chainsaw]
+Description="Your standard lumberjacks tool."
+ItemName="Chainsaw"
+
+[ChainsawAmmo]
+ItemName="can of gas"
+
+[ChainsawAmmoPickup]
+PickupMessage="Found 25 units of gas"
+
+[ChainsawPickup]
+PickupMessage="You got the Chainsaw."
+
+[Claws]
+Description="Bloody and Sharp. Yikes! "
+ItemName="Fists"
+
+[ClawsPickup]
+PickupMessage="Claws!"
+
+[Crossbow]
+Description="A recreational hunting weapon, featuring a firing trigger and an a powerful integrated scope. "
+ItemName="Xbow"
+
+[CrossbowAmmo]
+ItemName="An arrow"
+
+[CrossbowAmmoPickup]
+PickupMessage="Found (8) Bolts"
+
+[CrossbowPickup]
+PickupMessage="You got the Xbow."
+
+[DamTypeBullpup]
+DeathString=" %k killed %o (Bullpup)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[DamTypeClaws]
+DeathString="%o was mauled by  %k."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[DamTypeCrossbow]
+DeathString="% %k killed %o (Xbow)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[DamTypeCrossbowHeadShot]
+DeathString="% %k put an arrow %o's head."
+FemaleSuicide="%o shot herself in the head."
+MaleSuicide="%o shot himself in the head."
+
+[DamTypeDBShotgun]
+DeathString=" %k killed %o (Double Barrel Shotgun)."
+
+[DamTypeDeagle]
+DeathString=" %k killed %o (Deagle)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[DamTypeDualies]
+DeathString=" %k killed %o (Dualies)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[DamTypeFrag]
+DeathString="%o filled %k's body with shrapnel."
+FemaleSuicide="%o grenaded her dumb self."
+MaleSuicide="%o grenaded his dumb self."
+
+[DamTypeMelee]
+DeathString="%o was beat down by %k."
+FemaleSuicide="%o beat herself down."
+MaleSuicide="%o beat himself down."
+
+[DamTypeShotgun]
+DeathString=" %k killed %o (Shotgun)."
+FemaleSuicide="%o shot herself in the foot."
+MaleSuicide="%o shot himself in the foot."
+
+[Deagle]
+Description=".50 calibre action express handgun. This is about as big and nasty as personal weapons are going to get. But with a 7 round magazine, it should be used conservatively.  "
+ItemName="Handcannon"
+
+[DeagleAmmo]
+ItemName="Deagle bullets"
+
+[DeagleAmmoPickup]
+PickupMessage="Found (14) Rounds (.300 JHP)"
+
+[DeagleAmmoPickupSP]
+PickupMessage="You found some .300 JHP ammo"
+
+[DeaglePickup]
+PickupMessage="You got the Handcannon"
+
+[Dualies]
+Description="A pair of custom 9mm pistols. What they lack in stopping power, they compensate for with a quick refire."
+ItemName="Dual 9mms"
+
+[DualiesAmmo]
+ItemName="Dualies bullets"
+
+[DualiesAmmoPickup]
+PickupMessage="Found (30) Rounds (9mm)"
+
+[DualiesPickup]
+PickupMessage="You got the Dual 9mms"
+
+[FirstAidKit]
+PickupMessage="You used a First Aid Kit"
+
+[Frag]
+Description="the frag grenade releases a dense cloud of shrapnel in a large area of effect around its detonation zone. Use with caution. "
+ItemName="Frag Grenade"
+
+[FragAmmo]
+ItemName="A Grenade"
+
+[FragAmmoPickup]
+PickupMessage="Found some Frag Grenades"
+
+[FragPickup]
+PickupMessage="You got the Frag Grenades"
+
+[HUDKillingFloor]
+WaitingToSpawn="Press [Fire] to Enter the Fray."
+NowViewing="Following"
+ScoreText="Kills"
+
+[KFDeathMessage]
+KilledString="was slaughtered by"
+
+[KFGameType]
+KFSurvivalPropText[0]="Wave Start Spawn Period"
+KFSurvivalPropText[1]="Wave Spawn Period"
+KFSurvivalDescText[0]="Specify time between successive spawns at start of waves(recommended:6.0), lower values may hurt performance!"
+KFSurvivalDescText[1]="Specify time between successive spawns during a wave(recommended:3.0), lower values may hurt performance!"
+KFHints=("The Winchester and Crossbow are both capable of scoring lethal headshots. Aim high. ","First Aid Kits take several seconds to fully kick in. Stay out of harms way while you're healing or the effects of the pack will be reduced.","The Bloat and Fleshpound Zombies cannot be stunned. Avoid engaging in melee combat with them.","The longer you hold down the Fire button , the farther you can throw a Frag Grenade.","To reload the Combat Shotgun, press and HOLD the fire key to continue inserting shells.","Some Zombies will perform combo attacks, allowing them to strike you two or even three times in an instant. Stay on your guard in close quarters.","Though less durable than her counterparts, the Stalker is a formidable opponent in close range, and she is able to move at a full run.","Most zombies can be briefly stunned if they are caught off guard with a well timed blow. Be sure to deliver it while they are in the process of attacking, or jumping.","A large number of objects in the environment can be pushed to create blockades which may delay oncoming Zombies.","Stay on the lookout for Explosive Barrels or Red Gas Canisters scattered around the maps. These can be pushed into position and detonated to deal wide area damage","The significant kickback experienced with the L.A.W can affect your aim. Be sure to compensate for this when firing.","There are 2 Gun Lockers in each map, some in less obvious places. These are you combat lifeline, providing you with ammo, weapons, and health. To access one, walk up to it and press the USE key.","The larger and more difficult the Zombie you kill, the more points you will be awarded.","Surviving players recieve a 5 point BONUS at the end of each round.","Friendly A.I bots can be added to a net-game by entering ( ADDBOTS X ) in the console, where X is the number of bots you wish to join. Excessive numbers of bots will severly hamper performance.")
+DefaultPlayerName="Fresh Meat"
+GameName="Killing Floor"
+Description="They are coming. There's nothing but you and your squad standing between a writhing wall of Undead, and the scattered survivors of the Infection."
+
+[KFInfectedSpecies]
+SpeciesName="Infected"
+
+[KFInstantFire]
+MessageNoAmmo=" is Empty."
+
+[KFInvasionMessage]
+OutMessage="has fallen to the undead.."
+
+[KFSPGameType]
+GameName="KFSinglePlayer"
+Description="Single PLayer"
+
+[KFWeapon]
+Description="This is a very generic weapon."
+
+[KeyCard]
+PickupMessage="You got the Sector B keycard"
+
+[KeyCard2]
+PickupMessage="You got the power core keycard"
+
+[KeyCard3]
+PickupMessage="You found a projector disk"
+
+[KeyCardFinal]
+PickupMessage="You found the Test Labs keycard"
+
+[Knife]
+Description="A household item used for cutting meat or vegetables. It has other uses."
+ItemName="Knife"
+
+[KnifePickup]
+PickupMessage="You got the Kitchen Knife."
+
+[L85AmmoPickup]
+PickupMessage="Found (2) Magazines (5.56 NATO)"
+
+[LAW]
+Description="The Light Anti Tank Weapon is, as its name suggests, a military grade heavy weapons platform designed to disable or outright destroy armored vehicles."
+ItemName="L.A.W"
+
+[LAWAmmo]
+ItemName="L.A.W Rockets"
+
+[LAWAmmoPickup]
+PickupMessage="Found (2) L.A.W Rockets"
+
+[LAWPickup]
+PickupMessage="You got the L.A.W."
+
+[MountedCal]
+VehiclePositionString="manning a Machine Gun Emplacement"
+VehicleNameString="Machine Gun Emplacement"
+
+[MountedCalAmmo]
+ItemName="50 Cal Ammo"
+
+[MountedCalWeapon]
+ItemName="Turret weapon"
+
+[Shotgun]
+Description="A rugged tactical pump action shotgun common to police divisions the world over. It accepts a maximum of 8 shells and can fire in rapid succession. "
+ItemName="Shotgun"
+
+[ShotgunAmmoPickup]
+PickupMessage="Found (8) 12-Gauge Shells"
+
+[ShotgunAmmoPickupSP]
+PickupMessage="Found some 12-Gauge Shells"
+
+[ShotgunPickup]
+PickupMessage="You got the Shotgun."
+
+[ShotgunPickupSP]
+PickupMessage="You got the Shotgun."
+
+[Single]
+Description="A 9mm Pistol"
+ItemName="9mm Tactical"
+
+[SingleAmmo]
+ItemName="9mm bullets"
+
+[SingleAmmoPickup]
+PickupMessage="Found some 9mm ammo"
+
+[SinglePickup]
+PickupMessage="You got the 9mm handgun"
+
+[Vest]
+PickupMessage="You found a Kevlar Assault Vest"
+
+[Winchester]
+Description="A rugged and reliable single-shot rifle.  "
+ItemName="Winchester Rifle"
+
+[WinchesterAmmo]
+ItemName="Winchester bullets"
+
+[WinchesterAmmoPickup]
+PickupMessage="Found (10) .44 rounds"
+
+[WinchesterPickup]
+PickupMessage="You got the Winchester Rifle"
+
