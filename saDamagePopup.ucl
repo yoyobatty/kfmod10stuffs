@@ -1,1 +1,0 @@
-Mutator=(ClassName=saDamagePopup.mutDamagePopup,GroupName=DamagePopup,IconMaterialName=MutatorArt.nosym,FriendlyName=saDamagePopup.mutDamagePopup.FriendlyName,Description=saDamagePopup.mutDamagePopup.Description,FriendlyName=saDamagePopup.mutDamagePopup.FriendlyName,FallbackName="Damagepopup",FallbackDesc="DamagePopup")

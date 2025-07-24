@@ -1,2 +1,0 @@
-Mutator=(ClassName=Dragonfly.Dragonfly,GroupName=DragonflyReplacer,IconMaterialName=MutatorArt.nosym,FriendlyName=Dragonfly.Dragonfly.FriendlyName,Description=Dragonfly.Dragonfly.Description,FriendlyName=Dragonfly.Dragonfly.FriendlyName,FallbackName="Dragonfly Replacer",FallbackDesc="Replace any (or all) vehicle types with the Dragonfly Bomber!")
-Vehicle=(ClassName=Dragonfly.NewBomber,FriendlyName=Dragonfly.NewBomber.VehicleNameString,FallbackName="Dragonfly Bomber",FallbackDesc="Dragonfly Bomber")
